@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>02 || HoraDeCodar 02</title>
+</head>
+
+<body>
+    <p>02. Crie uma bomba relógio (usando somente código - para deixar claro!) cuja contagem regressiva vá de 30 a 0.
+        Utilize "document.write" para escrever em tela e no final da repetição escreva "EXPLOSÃO".</p>
+    <script>
+
+        var i = 30;
+
+        while (i > 0) {
+            var texto = "Contagem regressiva... " + i + "<br>";
+            document.write(texto);
+            i--; // é igual a i + 1 OU i += 1;
+        }
+        document.write("<br>" + "EXPLOSÃO!!!");
+    </script>
+</body>
+
+</html>
